@@ -1,0 +1,17 @@
+void prof_x_haloween()
+{
+	CutScene cs = prof_x_haloween;
+	
+	cs.add_cue(new Sound(0, "profx_haloween_a"));
+	cs.add_cue(new Sound(3501, "profx_haloween_a"));
+			
+	cs.add_cue(new text(0, 1619 "It's for haloween, professor", SubtitleFont));
+	cs.add_cue(new text(1619, 2146 "obviously.", SubtitleFont));
+	cs.add_cue(new text(2146, 3501 "HALLOWEEN?", SubtitleFont));
+	cs.add_cue(new text(3501, 9975 "Alright, makes sense.", SubtitleFont));
+	cs.add_cue(new text(9975, 13846 "What kind of costume are you looking for?", SubtitleFont));
+	cs.add_cue(new text(13846, 18983 "Obviously I can't make anything too suspicious.", SubtitleFont));
+	
+						
+	cs.add_cue(new EndCue(18983));
+}

@@ -1,0 +1,17 @@
+void profx_godzilla()
+{
+	CutScene cs = profx_godzilla;
+	
+	cs.add_cue(new Sound(0, "profx_godzilla_a"));
+	cs.add_cue(new Sound(, "profx_godzilla_b"));
+		
+	cs.add_cue(new text(0, 3000 "", SubtitleFont));
+	cs.add_cue(new text(3568, 5372 "I CANT MAKE THAT.", SubtitleFont));
+	cs.add_cue(new text(5372, 9197 "You ridiculous, diminutive man.", SubtitleFont));
+	cs.add_cue(new text(9197, 11570 "What kinda operation you think", SubtitleFont));
+	cs.add_cue(new text(11570, 13346 "i'm running here?", SubtitleFont));
+	cs.add_cue(new text(13346, 16223 "This ain't no red light district.", SubtitleFont));
+	cs.add_cue(new text(16223, 18967 "I operate a freakin' bidness!", SubtitleFont));
+				
+	cs.add_cue(new EndCue(18967));
+}

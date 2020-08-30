@@ -1,0 +1,22 @@
+void profx_truth()
+{
+	CutScene cs = profx_truth;
+	
+	cs.add_cue(new Sound(0, "profx_truth_a"));
+	cs.add_cue(new Sound(15569, "profx_truth_b"));
+			
+	cs.add_cue(new text(0, 2217  "My Dad wanted me to code him a butterfly game.", SubtitleFont));
+	cs.add_cue(new text(2879, 5513  "I failed. So he kicked me out of the house", SubtitleFont));
+	cs.add_cue(new text(5513, 6914  "on the mean streets", SubtitleFont));
+	cs.add_cue(new text(6914, 10625  "where i tried to become a balla by selling drugs and soliciting hookers.", SubtitleFont));
+	cs.add_cue(new text(10625, 14000  "I got busted by this hot cop who totally teased me about getting naked", SubtitleFont));
+	cs.add_cue(new text(15569, 16524  "I...", SubtitleFont));
+	cs.add_cue(new text(16955, 17925  "Know...", SubtitleFont));
+	cs.add_cue(new text(18587, 21000  "Exactly how you feel.", SubtitleFont));
+	cs.add_cue(new text(21914, 25856  "Alright man, I'll knit you up something fierce.", SubtitleFont));
+	cs.add_cue(new text(26980, 29768  "Just out of curiosity though", SubtitleFont));
+	cs.add_cue(new text(29768, 31000  "are you guilty?", SubtitleFont));
+	cs.add_cue(new text(31723, 32649  "or innocent?", SubtitleFont));
+						
+	cs.add_cue(new EndCue(34649));
+}

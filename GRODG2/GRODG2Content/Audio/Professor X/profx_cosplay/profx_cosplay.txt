@@ -1,0 +1,17 @@
+void prof_x_cosplay()
+{
+	CutScene cs = prof_x_cosplay;
+	
+	cs.add_cue(new Sound(0, "profx_cosplay_a"));
+	cs.add_cue(new Sound(7254, "profx_cosplay_b"));
+		
+	cs.add_cue(new text(0, 1446 "Didn't you hear Professor,", SubtitleFont));
+	cs.add_cue(new text(1446, 3432 "but there is a cosplay party going down, and i need", SubtitleFont));
+	cs.add_cue(new text(3432, 7400 "a sick goot costume to impress the role playing game chicks.", SubtitleFont));
+	cs.add_cue(new text(7328, 10292 "Very clever little child.", SubtitleFont));
+	cs.add_cue(new text(10292 13677 "But the professor was not born yesterday.", SubtitleFont));
+	cs.add_cue(new text(13677, 15313 "BURRRRR", SubtitleFont));
+	cs.add_cue(new text(15313, 18468 "I see through your plan.", SubtitleFont));
+			
+	cs.add_cue(new EndCue(18468));
+}

@@ -1,0 +1,17 @@
+void prof_x_guard()
+{
+	CutScene cs = prof_x_guard;
+	
+	cs.add_cue(new Sound(0, "prof_x_guard_a"));
+	cs.add_cue(new Sound(6235, "prof_x_guard_b"));
+		
+	cs.add_cue(new text(0, 6234 "How about a custume that is exactly, 100% identical to a guard's uniform?", SubtitleFont));
+	cs.add_cue(new text(7066, 11373 "Hmm, let me see.", SubtitleFont));
+	cs.add_cue(new text(11376, 16039 "I can make you a guards uniform so accurate", SubtitleFont));
+	cs.add_cue(new text(16039, 22294 "you could beat me with it afterwards and i would just cry.", SubtitleFont));
+	cs.add_cue(new text(22294, 24555 "But hold on now", SubtitleFont));
+	cs.add_cue(new text(24555, 27862 "I got one more question.", SubtitleFont));
+	cs.add_cue(new text(27862, 30265 "Why you in prison anyways?", SubtitleFont));
+				
+	cs.add_cue(new EndCue(30265));
+}

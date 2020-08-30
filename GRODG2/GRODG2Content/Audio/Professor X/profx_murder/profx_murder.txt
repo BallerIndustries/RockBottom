@@ -1,0 +1,18 @@
+void profx_murder()
+{
+	CutScene cs = profx_murder;
+	
+	cs.add_cue(new Sound(0, "profx_murder"));
+	cs.add_cue(new Sound(15333, "profx_murder"));
+			
+	cs.add_cue(new text(0, 2650 "I axe murdered my through half of Europe", SubtitleFont));
+	cs.add_cue(new text(2650, 5422 "stopping only for coffee and grindin'.", SubtitleFont));
+	cs.add_cue(new text(5422, 9398 "My axe got siezed in Amsterdam, right after i had an epiphany of about murdering.", SubtitleFont));
+	cs.add_cue(new text(11116, 14000 " Like how it was mean and stuff.", SubtitleFont));
+	cs.add_cue(new text(15514, 21478 "You sick, unpatriotic fool.", SubtitleFont));
+	cs.add_cue(new text(21478, 26328 "I don't think i can make custumes for the likes of you.", SubtitleFont));
+	cs.add_cue(new text(26328, 30004 "Maybe later on when i've calmed down", SubtitleFont));
+	cs.add_cue(new text(30004, 33513 "But for now, i got to mope.", SubtitleFont));
+	
+	cs.add_cue(new EndCue(33513));
+}

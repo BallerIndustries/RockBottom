@@ -1,0 +1,20 @@
+void profx_revolutionary()
+{
+	CutScene cs = profx_revolutionary;
+	
+	cs.add_cue(new Sound(0, "profx_revolutionary"));
+	cs.add_cue(new Sound(15355, "profx_revolutionary"));
+			
+	cs.add_cue(new text(0, 1657 "I spoke out against the status quo.", SubtitleFont));
+	cs.add_cue(new text(2560, 4609 "I spit hot truth all over the radio", SubtitleFont));
+	cs.add_cue(new text(4609, 7441 "so they sent the men in black to stop the signal.", SubtitleFont));
+	cs.add_cue(new text(7441, 9852 "But i am more than that. I am an idea.", SubtitleFont));
+	cs.add_cue(new text(9852, 12774 "And ideas are really, really, hard", SubtitleFont));
+	cs.add_cue(new text(12774, 13889 "to shoot with a gun.", SubtitleFont));
+	cs.add_cue(new text(15355, 21722 "You sick, unpatriotic fool.", SubtitleFont));
+	cs.add_cue(new text(27122, 26513 "I don't think i can make custumes for the likes of you.", SubtitleFont));
+	cs.add_cue(new text(26513, 30249 "Maybe later on when i've calmed down", SubtitleFont));
+	cs.add_cue(new text(30249, 33292 "But for now, i got to mope.", SubtitleFont));
+	
+	cs.add_cue(new EndCue(33292));
+}

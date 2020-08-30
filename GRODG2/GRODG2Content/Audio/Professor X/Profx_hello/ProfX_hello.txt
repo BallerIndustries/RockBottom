@@ -1,0 +1,39 @@
+void prof_x_hello()
+{
+	CutScene cs = prof_x_hello;
+	
+	cs.add_cue(new Sound(0, "profx_hello_a"));
+	cs.add_cue(new Sound(1941, "profx_hello_b"));
+	cs.add_cue(new Sound(8476, "profx_hello_c"));
+	cs.add_cue(new Sound(14942, "profx_hello_d"));
+	cs.add_cue(new Sound(23958, "profx_hello_e"));
+	cs.add_cue(new Sound(30117, "profx_hello_f"));
+	cs.add_cue(new Sound(33535, "profx_hello_g"));
+	cs.add_cue(new Sound(46714, "profx_hello_h"));
+	cs.add_cue(new Sound(50214, "profx_hello_i"));
+	
+	cs.add_cue(new text(0, 2160 "Hi there.", SubtitleFont));
+	cs.add_cue(new text(2160, 5393 "I am Professor X", SubtitleFont));
+	cs.add_cue(new text(5393, 8879 "nice to meet you.", SubtitleFont));
+	cs.add_cue(new text(8879, 10620 "So, uhh, I heard that", SubtitleFont));
+	cs.add_cue(new text(10620, 12618 "if a man's looking to get some textile work done", SubtitleFont));
+	cs.add_cue(new text(12618, 15373 "then you're the guy to talk to.", SubtitleFont));
+	cs.add_cue(new text(15373, 18442 "Maybe i am the man with the needles", SubtitleFont));
+	cs.add_cue(new text(18442, 22038 "who can produce clothing", SubtitleFont));
+	cs.add_cue(new text(22038, 24669 "if you know what i mean.", SubtitleFont));
+	cs.add_cue(new text(24669, 27404 "I'd like to think i know exactly what you are saying.", SubtitleFont));
+	cs.add_cue(new text(27404, 30336 "Now there lies a tale...", SubtitleFont));
+	cs.add_cue(new text(30336, 31621 "Wait, what?", SubtitleFont));
+	cs.add_cue(new text(31621, 33699 "What do you mean?", SubtitleFont));
+	cs.add_cue(new text(33699, 35640 "Aren't you curious", SubtitleFont));
+	cs.add_cue(new text(35640, 39380 "how a hard man like myself", SubtitleFont));
+	cs.add_cue(new text(39380, 43508 "developed such a, how shall i put it", SubtitleFont));
+	cs.add_cue(new text(43508, 47227 "Skill At Tailoring?", SubtitleFont));
+	cs.add_cue(new text(47227, 50863 "Not even a little.", SubtitleFont));
+	cs.add_cue(new text(50863, 54719 "Let me tell you about how i came to be little child.", SubtitleFont));
+	cs.add_cue(new text(54719, 57672 "Let me tell you about the story", SubtitleFont));
+	cs.add_cue(new text(57692, 59000 "Of", SubtitleFont));	
+	cs.add_cue(new text(59000, 63790 "The Sewing Man.", SubtitleFont));
+		
+	cs.add_cue(new EndCue(63790));
+}

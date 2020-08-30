@@ -1,0 +1,37 @@
+void prof_x_no_story()
+{
+	CutScene cs = prof_x_no_story;
+	
+	cs.add_cue(new Sound(0, "profx_no_story_a"));
+	cs.add_cue(new Sound(5483, "profx_no_story_b"));
+	cs.add_cue(new Sound(10572, "profx_no_story_c"));
+	cs.add_cue(new Sound(13060, "profx_no_story_d"));
+	cs.add_cue(new Sound(20126, "profx_no_story_e"));
+	cs.add_cue(new Sound(22079, "profx_no_story_f"));
+	cs.add_cue(new Sound(33899, "profx_no_story_g"));
+	cs.add_cue(new Sound(40624, "profx_no_story_h"));
+		
+	cs.add_cue(new text(0, 1619 "Godammit no", SubtitleFont));
+	cs.add_cue(new text(1619, 5000 "I haven't got time to listen to another one of you lunatics rant.", SubtitleFont));
+	cs.add_cue(new text(5483, 7535 "Alright copper top", SubtitleFont));
+	cs.add_cue(new text(7535, 10000 "why you bothering me then?", SubtitleFont));
+	cs.add_cue(new text(10572, 13060 "I'm looking for a costume to get made.", SubtitleFont));
+	cs.add_cue(new text(13060, 16962 "Do i look like a fucking wage slave, bitch?", SubtitleFont));
+	cs.add_cue(new text(16962, 20126 "I don't make costumes.", SubtitleFont));
+	cs.add_cue(new text(20126, 20079 "Umm. But i heard", SubtitleFont));
+	cs.add_cue(new text(20079, 24758 "I PRODUCE CUSTUMES!", SubtitleFont));
+	cs.add_cue(new text(24758, 29000 "Custom made for discerning customers", SubtitleFont));
+	cs.add_cue(new text(29000, 30000 "custard included.", SubtitleFont));
+	cs.add_cue(new text(33899, 36716 "Ok, i'd like a umm...", SubtitleFont));
+	cs.add_cue(new text(36716, 39809 "Custume. But could you leave the uh...", SubtitleFont));
+	cs.add_cue(new text(39809, 40624 "custard seperately?", SubtitleFont));
+	cs.add_cue(new text(40624, 42903 "CUSTOLUTELY!", SubtitleFont));
+	cs.add_cue(new text(42903, 48799 "Let me just get your measurements and then we'll...", SubtitleFont));
+	cs.add_cue(new text(48799, 50414 "HEY!", SubtitleFont));
+	cs.add_cue(new text(50414, 53444 "Wait a minute.", SubtitleFont));
+	cs.add_cue(new text(53444, 57533 "Why would a prisoner such as yourself", SubtitleFont));
+	cs.add_cue(new text(57533, 70213 "require his own custume?", SubtitleFont));
+	
+				
+	cs.add_cue(new EndCue(70213));
+}

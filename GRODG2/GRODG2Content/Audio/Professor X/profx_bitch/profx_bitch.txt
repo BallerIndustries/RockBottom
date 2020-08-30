@@ -1,0 +1,16 @@
+void prof_x_bitch()
+{
+	CutScene cs = prof_x_bitch;
+	
+	cs.add_cue(new Sound(0, "profx_bitch_a"));
+	cs.add_cue(new Sound(5791, "profx_bitch_b"));
+		
+	cs.add_cue(new text(0, 2603 "I got a job interview down in G block", SubtitleFont));
+	cs.add_cue(new text(2603, 5791 " a position has opened up in the prison bitch department.", SubtitleFont));
+	cs.add_cue(new text(6139, 8751 "Very clever little child.", SubtitleFont));
+	cs.add_cue(new text(8751, 11931 "But the professor was not born yesterday.", SubtitleFont));
+	cs.add_cue(new text(11931, 13666 "BURRRRR", SubtitleFont));
+	cs.add_cue(new text(13000, 16681 "I see through your plan.", SubtitleFont));
+			
+	cs.add_cue(new EndCue(16681));
+}
